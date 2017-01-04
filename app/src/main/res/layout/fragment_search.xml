@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SearchFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/search_name"
+        android:paddingTop="@dimen/search_query_top_padding"
+        style="@style/SearchText"/>
+
+    <EditText
+        android:id="@+id/query_one_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:saveEnabled="true"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:hint="@string/input_one_hint" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radio_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/search_tag" />
+        <RadioButton
+            android:id="@+id/radio_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_artist" />
+        <RadioButton
+            android:id="@+id/radio_track"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_track" />
+        <RadioButton
+            android:id="@+id/radio_artalb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_artalb" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/query_two_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:saveEnabled="true"
+        android:enabled="false"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:hint="@string/input_two_hint" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="@dimen/search_button_width"
+        android:layout_height="@dimen/search_button_height"
+        android:layout_marginTop="@dimen/search_button_margin_top"
+        android:background="@drawable/rounded_button"
+        android:elevation="2dp"
+        android:text="@string/search_button" />
+</LinearLayout>

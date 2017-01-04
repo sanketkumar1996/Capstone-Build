@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/MaterialRed500</item>
+        <item name="colorPrimaryDark">@color/MaterialRed700</item>
+        <item name="colorAccent">@color/MaterialLightGreen500</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Text Styles -->
+    <style name="TrackText" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/MaterialGrey700</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="BandText" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/MaterialGrey600</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="SearchText" parent="@style/TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/MaterialGrey800</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="DetailTrackText" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DetailDurationText" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DetailArtAlbText" parent="@style/DetailTrackText">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- FAB -->
+    <style name="DetailFAB">
+        <item name="android:layout_marginEnd">@dimen/fab_margin</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+    </style>
+
+    <!-- Widget -->
+    <style name="WidgetAppText" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/MaterialGrey800</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="WidgetText" parent="@style/WidgetAppText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="WidgetLargerText" parent="@style/WidgetText">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

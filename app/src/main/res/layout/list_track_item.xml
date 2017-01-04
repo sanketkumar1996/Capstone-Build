@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="@dimen/list_item_padding"
+    android:paddingBottom="@dimen/list_item_padding">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/list_item_image_size"
+        android:layout_height="@dimen/list_item_image_size"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingStart="@dimen/zero"
+        android:paddingEnd="@dimen/image_end_padding"
+        android:contentDescription="@string/empty"/>
+
+    <LinearLayout
+        android:id="@+id/linear_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_track_margin"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/imageView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/trackText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            style="@style/TrackText" />
+
+        <TextView
+            android:id="@+id/artistText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/BandText" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/deleteButton"
+        android:layout_width="@dimen/delete_button_width"
+        android:layout_height="@dimen/delete_button_height"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:background="@color/MaterialLightGreen300"
+        android:src="@drawable/ic_delete"
+        android:contentDescription="@string/delete_button" />
+</RelativeLayout>

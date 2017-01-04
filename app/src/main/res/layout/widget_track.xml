@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin" >
+
+    <LinearLayout
+        android:id="@+id/widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/widget_margin"
+        android:background="@color/MaterialRed200" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/widget_cover"
+                android:layout_height="@dimen/widget_image_size"
+                android:layout_width="@dimen/widget_image_size"
+                android:layout_gravity="center"
+                android:contentDescription="@string/empty" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/widget_track_margin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/widget_track"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/WidgetLargerText" />
+
+                <TextView
+                    android:id="@+id/widget_artist"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/WidgetLargerText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/widget_mylastfm_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/WidgetAppText" />
+    </LinearLayout>
+</FrameLayout>

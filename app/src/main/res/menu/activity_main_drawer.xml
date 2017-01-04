@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/nav_browse">
+        <menu>
+            <item
+                android:id="@+id/nav_browse"
+                android:icon="@drawable/ic_menu_browse"
+                android:title="@string/nav_browse_top" />
+            <item
+                android:id="@+id/nav_browse_country"
+                android:icon="@drawable/ic_menu_globe"
+                android:title="@string/nav_browse_country" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/nav_search" />
+    <item
+        android:id="@+id/nav_playlist"
+        android:icon="@drawable/ic_menu_playlist"
+        android:title="@string/nav_playlist" />
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="MaterialRed50">#FFEBEE</color>
+    <color name="MaterialRed100">#FFCDD2</color>
+    <color name="MaterialRed200">#EF9A9A</color>
+    <color name="MaterialRed300">#E57373</color>
+    <color name="MaterialRed400">#EF5350</color>
+    <color name="MaterialRed500">#F44336</color>
+    <color name="MaterialRed600">#E53935</color>
+    <color name="MaterialRed700">#D32F2F</color>
+    <color name="MaterialRed800">#C62828</color>
+    <color name="MaterialRed900">#B71C1C</color>
+
+    <color name="MaterialLightGreen50">#F1F8E9</color>
+    <color name="MaterialLightGreen100">#DCEDC8</color>
+    <color name="MaterialLightGreen200">#C5E1A5</color>
+    <color name="MaterialLightGreen300">#AED581</color>
+    <color name="MaterialLightGreen400">#9CCC65</color>
+    <color name="MaterialLightGreen500">#8BC34A</color>
+    <color name="MaterialLightGreen600">#7CB342</color>
+    <color name="MaterialLightGreen700">#689F38</color>
+    <color name="MaterialLightGreen800">#558B2F</color>
+    <color name="MaterialLightGreen900">#33691E</color>
+
+    <color name="MaterialGrey50">#FAFAFA</color>
+    <color name="MaterialGrey100">#F5F5F5</color>
+    <color name="MaterialGrey200">#EEEEEE</color>
+    <color name="MaterialGrey300">#E0E0E0</color>
+    <color name="MaterialGrey400">#BDBDBD</color>
+    <color name="MaterialGrey500">#9E9E9E</color>
+    <color name="MaterialGrey600">#757575</color>
+    <color name="MaterialGrey700">#616161</color>
+    <color name="MaterialGrey800">#424242</color>
+    <color name="MaterialGrey900">#212121</color>
+</resources>

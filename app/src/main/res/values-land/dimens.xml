@@ -1,0 +1,8 @@
+<resources>
+    <!-- SearchFragment -->
+    <dimen name="radio_group_padding_top">16dp</dimen>
+    <dimen name="search_query_start_margin">16dp</dimen>
+
+    <!-- Detail Track Activity -->
+    <dimen name="land_image_padding">5dp</dimen>
+</resources>
